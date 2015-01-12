@@ -28,3 +28,6 @@ var actions = {
 	"act1":{name:"alert"}
 };
 ```
+
+# License
+It is distributed under the GNU General Public License. 
