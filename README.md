@@ -1,4 +1,4 @@
-# FaraFix-App-Maker
+# Online-App-Maker
 Online Cordova/Phonegap/html mobile app builder/maker
 
 # basic structure
