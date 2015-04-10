@@ -13,11 +13,45 @@
 	<link rel="stylesheet" href="css/bootstrap-theme.min.css">
 
 	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/theme.css">
 
 	<script src="js/bootstrap.min.js"></script>
 
 </head>
 <body>
-		
+<div class="main-app">
+	<div class="row">
+		<!--Pages List-->
+		<div class="col-sm-3">
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<div id="pagesListTitle">
+						Application Pages
+						<button type="button" class="btn btn-success">Add Page</button>
+					</div>
+				</div>
+				<div class="panel-body">
+					<div class="list-group oApp-list-page">
+						<div id="pagesList">
+							<div class="list-group-item"><a href="#">Welcome Page</a>  <span class="badge" onclick="">Edit</span></div>
+							<a href="#" class="list-group-item">Login Page</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--Propertis List-->
+		<div class="col-sm-3">
+			<div class="panel panel-default">
+				<div class="panel-heading">Properties</div>
+				<div class="panel-body">
+					<div class="text-center" id="warning-select">
+						<i class="fa fa-warning"></i> Please select some element
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
 </body>
 </html>
